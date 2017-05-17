@@ -14,4 +14,10 @@ If your pi won't boot (or even show activity light) after flashing the image, yo
 -----------------------------------------------------------------------------------------------------------------------------------
 How do I fix that it won't boot or show acitvity light?
 Step number 1, plug your sdcard into your desired computer running whatever operating system you like (I used Ubuntu 16.04 LTS, but any OS that can recognize an sdcard will work). If you are running windows, you will only see the fat16 partition or as I labeled it here, the root_partition. This is good because the files we need to copy need to arrive on this partition and not on the home_partition which isn't even recognized by windows (I don't really know about that, but when I tried with Windows 7 it only showed the fat16 partition and not the ext4 partition). If you're on linux you might get 2 file manager popups, don't worry, just close the home_partition (containing things like the directory `bin` or `boot`) and continue on.
-Download the root_partition folder from this github 
+Download the root_partition folder from this github #add how to
+
+Step number 2, copy everything inside what you just downloaded to the root_partition. 
+
+Step number 3, plug the sdcard back into the pi and start it.
+-----------------------------------------------------------------------------------------------------------------------------------
+If you get an error with fsck, using an external keyboard, type `fsck -r`, that should solve it, though, I am not sure if you need to be connected to the internet while you're doing this, I was connected using an ethernet cable but you can always try :)
