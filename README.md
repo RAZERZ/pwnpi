@@ -5,8 +5,6 @@ The `root_partition` is the small partition found on your sd card after flashing
 
 FULL CREDITS TO THE PEOPLE @ PWNPI, I AM JUST MAKING IT EASIER FOR PEOPLE TO GET STARTED USING THEIR SOFTWARE AND LEARN!
 
-#The `home_partition` is the partition on your sdcard that contains the user files and is the largest one available. You don't need #to edit anything there but I decided to keep the files here in case you need them ;).
-
 I am working on an `install_script.sh` that will get you set up and working, all you have to do is flash the image, download the script, move it to your home partition and either `chmod +x install_script.sh && ./install_script.sh` or just directly `./install_script.sh`. Feedback on that is appreciated :).
 
 How does this work?
