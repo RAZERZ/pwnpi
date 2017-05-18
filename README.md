@@ -1,6 +1,6 @@
 # pwnpi
 PwnPI, skip all the errors while installing PwnPI on your RPI3, just follow the README.
-
+----------------------------------------------------------------------------------------------------------------------------------
 The `root_partition` is the small partition found on your sd card after flashing your pwnpi image. If you are unsure where to get this image, check the official website which you can check out @ http://pwnpi.sourceforge.net/.
 
 FULL CREDITS TO THE PEOPLE @ PWNPI, I AM JUST MAKING IT EASIER FOR PEOPLE TO GET STARTED USING THEIR SOFTWARE AND LEARN!
